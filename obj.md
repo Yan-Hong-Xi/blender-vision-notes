@@ -15,19 +15,27 @@
 - 位置（Translation）
 - 姿態（Rotation）
 - 尺度（Scale）
-- 動畫（Keyframes / Constraints / Parenting）
+- 動畫（Keyframes）
 
+### python command ###
 ```python
-obj.location
-obj.rotation_euler
-obj.rotation_quaternion
-obj.matrix_world
+import bpy
+obj = bpy.data.objects["Cube"]  #<--Get obj
+obj.location                    #<--obj Translation
+obj.rotation_euler              #<--obj Rotation euler format
+obj.rotation_quaternion         #<--obj Rotation quaternion format
+obj.matrix_world                #<--obj matrix world
 ```
+
+### cmd ###
 ```cmd
-obj.location
-obj.rotation_euler
-obj.rotation_quaternion
-obj.matrix_world
+Vector((-0.018312454223632812, 5.0606207847595215, 0.0))
+Euler((0.3076249659061432, -0.18834763765335083, 0.2206306755542755), 'XYZ')
+Quaternion((1.0, 0.0, 0.0, 0.0))
+Matrix(((0.958503246307373, -0.2638914883136749, -0.10785529017448425, -0.018312454223632812),
+        (0.2149747759103775, 0.917545735836029, -0.33450815081596375, 5.0606207847595215),
+        (0.1872360110282898, 0.2974410057067871, 0.9362005591392517, 0.0),
+        (0.0, 0.0, 0.0, 1.0)))
 ```
 Object 本身**不包含任何與幾何形狀或成像模型直接相關的資訊**。
 
