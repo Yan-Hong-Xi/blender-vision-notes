@@ -110,7 +110,7 @@ Object 並不包含任何幾何資訊，
 ### 誤解二：複製 Object 就是複製一份幾何
 
 多個 Object 可能指向同一個 Mesh data，
-每個 Object 僅有自己的位置與姿態。
+每個 Object 僅有自己的位vvv置與姿態。
 
 ---
 

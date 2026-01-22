@@ -1,2 +1,0 @@
-旨在blender驗證pinhole model以及透過API獲取符號的實操筆記
-
