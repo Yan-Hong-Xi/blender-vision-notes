@@ -277,4 +277,14 @@ Vector((856.3510131835938, 327.7649230957031, 0.9999999403953552))
 >>> Pt4inUV
 Vector((776.6835327148438, 280.6858825683594, 1.0))
 ````
+
+Data compare:
+|  | ${\ }{\ }{\ }{\ }{\ }{\ }{\ }{\ }{\ }(\mathbf{X}_{c}, \mathbf{Y}_{c}, \mathbf{Z}_{c}){\ }{\ }{\ }$ | ${\ }{\ }{\ }{\ }{\ }(u,v)$ | ${\ }{\ }{\ }{\ }{\mathbf{K}}(\mathbf{X}_{c}, \mathbf{Y}_{c}, \mathbf{Z}_{c})/{\mathbf{s}}{\ }{\ }{\ }$ |
+|---|---|---|---|
+| $\mathcal{ObjPt_1}$ | $\mathcal{(0.086, 0.060, 1.552)}$  | $\mathcal{(1108, 643)}$   | $\mathcal{(1108.188, 642.808, 1)}$  |
+| $\mathcal{ObjPt_2}$ | $\mathcal{(-0.206, 0.065, 1.662)}$ | $\mathcal{(629, 644)}$  | $\mathcal{(629.022, 644.347, 1)}$ |
+| $\mathcal{ObjPt_3}$ | $\mathcal{(-0.063, -0.130, 1.631)}$  | $\mathcal{(856, 328)}$   | $\mathcal{(856.351, 327.765, 1)}$  |
+| $\mathcal{ObjPt_4}$ | $\mathcal{(-0.123, -0.173, 1.783)}$  | $\mathcal{(777, 281)}$   | $\mathcal{(776.684, 280.686, 1)}$  |
+
 ![alt text](docs/resource/ObjPointinUVplane_marker.png)
+
