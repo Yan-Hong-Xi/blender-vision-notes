@@ -4,11 +4,11 @@ This note focuses on verifying the pinhole camera model in Blender and
 retrieving geometric quantities via the Blender Python API.
 
 
-![alt text](docs/resource/pinhole_homogeneous_transformation.png)
+![alt text](resource/pinhole_homogeneous_transformation.png)
 **Figure 1.** Reference coordinate frames and homogeneous transformation
 defined by the pinhole camera model in OpenCV.
 
-![alt text](docs/resource/pinhole_blender.PNG)
+![alt text](resource/pinhole_blender.PNG)
 **Figure 2.** Equivalent camera and coordinate frame setup implemented
 in Blender to reproduce the OpenCV pinhole camera model.
 
@@ -200,9 +200,9 @@ Data compare:
 | $\mathcal{ObjPt_3}$ | $\mathcal{(0.001, -0.109, 0.000)}$ | $\mathcal{(-0.063, 0.130, -1.631)}$  | $\mathcal{(-0.063, 0.130, -1.631)}$ |
 | $\mathcal{ObjPt_4}$ | $\mathcal{(-0.134, -0.007, 0.000)}$ | $\mathcal{(-0.123, 0.173, -1.783)}$  | $\mathcal{(-0.123, 0.173, -1.783)}$ |
 
-![alt text](docs/resource/ObjPointinObjframe.png)
+![alt text](resource/ObjPointinObjframe.png)
 
-![alt text](docs/resource/ObjPointinCamframe.png)
+![alt text](resource/ObjPointinCamframe.png)
 
 Step.3 Convert 
 $(\mathbf{X}_{c\text{-}bld}, \mathbf{Y}_{c\text{-}bld}, \mathbf{Z}_{c\text{-}bld})$ to $(\mathbf{X}_{c}, \mathbf{Y}_{c}, \mathbf{Z}_{c})$ Script:
@@ -286,5 +286,5 @@ Data compare:
 | $\mathcal{ObjPt_3}$ | $\mathcal{(-0.063, -0.130, 1.631)}$  | $\mathcal{(856, 328)}$   | $\mathcal{(856.351, 327.765, 1)}$  |
 | $\mathcal{ObjPt_4}$ | $\mathcal{(-0.123, -0.173, 1.783)}$  | $\mathcal{(777, 281)}$   | $\mathcal{(776.684, 280.686, 1)}$  |
 
-![alt text](docs/resource/ObjPointinUVplane_marker.png)
+![alt text](resource/ObjPointinUVplane_marker.png)
 
